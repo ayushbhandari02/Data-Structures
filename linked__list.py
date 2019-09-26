@@ -154,7 +154,7 @@ class LinkedList:  # creating a class for linked list having all the methods req
                         prev = prev.next
                 else:
                     prev = temp
-                    temp  = temp.next
+                    temp = temp.next
 
         print("final: ")
         self.view_list()

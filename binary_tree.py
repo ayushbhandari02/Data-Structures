@@ -72,7 +72,7 @@ class BinaryTree:
                     print(current.data)
 
             elif current.left is prev:
-                if current.right:git
+                if current.right:
                     stack.append(current.right)
                 else:
                     stack.pop()
@@ -213,3 +213,11 @@ class BinaryTree:
 
             if temp.right:
                 queue.append(temp.right)
+
+
+
+
+
+
+
+
